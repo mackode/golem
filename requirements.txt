@@ -49,3 +49,4 @@ pyssim
 enforce==0.3.4
 miniupnpc==2.0.2
 -e git://github.com/golemfactory/golem-messages.git@v1.2.1#egg=golem_messages
+jinja2>=2.11.3 # not directly required, pinned by Snyk to avoid a vulnerability
