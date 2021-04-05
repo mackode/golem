@@ -6,7 +6,7 @@ docker-py==1.7.2
 ipaddress>=1.0.18
 netifaces==0.10.4
 peewee>=2.8.1
-Pillow==4.2.1
+Pillow==8.2.0
 psutil==5.2.1
 pycodestyle
 pyelliptic==1.5.7
