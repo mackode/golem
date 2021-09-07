@@ -36,8 +36,8 @@ scrypt
 packaging
 GitPython>=2.1.0
 semantic_version
-pyOpenSSL==16.2.0
-requests==2.13.0
+pyOpenSSL==17.5.0
+requests==2.20
 Automat==0.5.0
 zope.interface==4.3.3
 incremental==16.10.1
@@ -49,3 +49,5 @@ pyssim
 enforce==0.3.4
 miniupnpc==2.0.2
 -e git://github.com/golemfactory/golem-messages.git@v1.2.1#egg=golem_messages
+jinja2>=2.11.3 # not directly required, pinned by Snyk to avoid a vulnerability
+pygments>=2.7.4 # not directly required, pinned by Snyk to avoid a vulnerability
