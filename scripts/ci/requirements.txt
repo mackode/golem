@@ -2,3 +2,4 @@ ansible>=2.4.1.0
 boto3
 pywinrm
 boto
+requests>=2.32.0 # not directly required, pinned by Snyk to avoid a vulnerability
