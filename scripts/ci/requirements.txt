@@ -1,4 +1,5 @@
-ansible>=2.4.1.0
+ansible>=12.0.0
 boto3
 pywinrm
 boto
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
